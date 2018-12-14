@@ -29,7 +29,7 @@ PODSPEC_DESC
   s.license      = "GNU GPL 2"
   s.author       = "employees@belledonne-communications.com" 
   s.platform     = :ios, "9.0"
-  s.source       = { :http => "http://localhost:8000/linphone-sdk-ios-4.1-69-gecb3acc.zip" }
+  s.source       = { :http => "https://www.linphone.org/snapshots/ios//linphone-sdk-ios-4.1-69-gecb3acc.zip" }
   s.vendored_frameworks = "linphone-sdk/apple-darwin/Frameworks/**"
   s.resource = "linphone-sdk/apple-darwin/Resources/**"
 
