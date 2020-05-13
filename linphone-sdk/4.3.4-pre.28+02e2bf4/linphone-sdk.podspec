@@ -22,6 +22,7 @@ Enabled features:
  * qrcode, QRCode support with zxing.
  * MKV, MKV playing and recording support.
  * VPX, VPX (VP8) video encoding/decoding support.
+ * CSharp wrapper, Build the C# wrapper from Liblinphone.
  * Swift wrapper, Build the Swift wrapper from Liblinphone.
  * Jazzy doc, Build the Swift doc from Liblinphone.
  * LIME X3DH, Enable Linphone IM Encryption version 2 support in  Liblinphone.
