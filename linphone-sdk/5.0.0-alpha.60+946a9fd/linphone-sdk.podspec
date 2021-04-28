@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.description  = <<-PODSPEC_DESC
 Enabled features:
  * Unit tests, Enable unit tests support with BCUnit library.
+ * Doc, Enable documentation generation with Doxygen
  * Xml2, Enable bc version of libxml2
  * Sqlite, Enable bc version of sqlite3
  * Zlib, Enable bc version of zlib
