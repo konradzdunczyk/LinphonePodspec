@@ -13,6 +13,7 @@ Enabled features:
  * DNS_SERVICE, Enable Apple DNS Service. Available on Mac and iOS. Incompatible with ENABLE_MDNS.
  * SRTP, SRTP media encryption support.
  * ZRTP, ZRTP media encryption support.
+ * Codec2, Codec2 audio encoding/decoding support.
  * GSM, GSM audio encoding/decoding support.
  * iLBC, iLBC audio encoding/decoding support.
  * ISAC, ISAC audio encoding/decoding support.
@@ -23,7 +24,6 @@ Enabled features:
  * qrcode, QRCode support with zxing.
  * MKV, MKV playing and recording support.
  * VPX, VPX (VP8) video encoding/decoding support.
- * CSharp wrapper, Build the C# wrapper from Liblinphone.
  * FlexiAPI, Enable the FlexiAPI support in Liblinphone.
  * Swift wrapper, Build the Swift wrapper sources from Liblinphone.
  * Jazzy doc, Build the Swift doc from Liblinphone.
