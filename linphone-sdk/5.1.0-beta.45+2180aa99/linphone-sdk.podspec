@@ -25,6 +25,7 @@ Enabled features:
  * MKV, MKV playing and recording support.
  * VPX, VPX (VP8) video encoding/decoding support.
  * LibYUV, Enable LibYUV support
+ * CSharp wrapper, Build the C# wrapper from Liblinphone.
  * FlexiAPI, Enable the FlexiAPI support in Liblinphone.
  * Swift wrapper, Build the Swift wrapper sources from Liblinphone.
  * Jazzy doc, Build the Swift doc from Liblinphone.
@@ -663,7 +664,7 @@ LICENSE
     }
   s.author       = { 'Belledonne Communications SARL' => 'linphone-iphone@belledonne-communications.com' }
   s.platform     = :ios, "9.0"
-  s.source       = { :http => "https://www.linphone.org/releases/ios/linphone-sdk-ios-5.1.0-beta.45+2180aa99.zip" }
+  s.source       = { :http => "https://download.linphone.org/snapshots/ios/linphone-sdk-ios-5.1.0-beta.45+2180aa99.zip" }
   s.vendored_frameworks = "linphone-sdk/apple-darwin/Frameworks/**"
   s.pod_target_xcconfig = { 'VALID_ARCHS' => "arm64 armv7 x86_64" }
   s.module_name   = 'linphonesw' # name of the swift package
