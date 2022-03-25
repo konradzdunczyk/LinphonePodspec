@@ -13,6 +13,7 @@ Enabled features:
  * DNS_SERVICE, Enable Apple DNS Service. Available on Mac and iOS. Incompatible with ENABLE_MDNS.
  * SRTP, SRTP media encryption support.
  * ZRTP, ZRTP media encryption support.
+ * Codec2, Codec2 audio encoding/decoding support.
  * GSM, GSM audio encoding/decoding support.
  * iLBC, iLBC audio encoding/decoding support.
  * ISAC, ISAC audio encoding/decoding support.
@@ -23,7 +24,6 @@ Enabled features:
  * qrcode, QRCode support with zxing.
  * MKV, MKV playing and recording support.
  * VPX, VPX (VP8) video encoding/decoding support.
- * CSharp wrapper, Build the C# wrapper from Liblinphone.
  * Swift wrapper, Build the Swift wrapper sources from Liblinphone.
  * Jazzy doc, Build the Swift doc from Liblinphone.
  * LIME X3DH, Enable Linphone IM Encryption version 2 support in  Liblinphone.
@@ -660,7 +660,7 @@ LICENSE
     }
   s.author       = { 'Belledonne Communications SARL' => 'linphone-iphone@belledonne-communications.com' }
   s.platform     = :ios, "9.0"
-  s.source       = { :http => "https://www.linphone.org/releases/ios/linphone-sdk-ios-4.5.14.zip" }
+  s.source       = { :http => "https://download.linphone.org/releases/ios/linphone-sdk-ios-4.5.14.zip" }
   s.vendored_frameworks = "linphone-sdk/apple-darwin/Frameworks/**"
   s.pod_target_xcconfig = { 'VALID_ARCHS' => "arm64 armv7 x86_64" }
   s.resource = "linphone-sdk/apple-darwin/Resources/**"
