@@ -20,6 +20,7 @@ Enabled features:
  * jpeg, JPEG support with libjpeg-turbo.
  * qrcode, QRCode support with zxing.
  * MKV, MKV playing and recording support.
+ * CSharp wrapper, Build the C# wrapper from Liblinphone.
  * FlexiAPI, Enable the FlexiAPI support in Liblinphone.
  * Swift wrapper, Build the Swift wrapper sources from Liblinphone.
  * LIME X3DH, Enable Linphone IM Encryption version 2 support in  Liblinphone.
