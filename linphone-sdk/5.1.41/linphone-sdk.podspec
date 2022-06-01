@@ -25,6 +25,7 @@ Enabled features:
  * MKV, MKV playing and recording support.
  * VPX, VPX (VP8) video encoding/decoding support.
  * LibYUV, Enable LibYUV support
+ * CSharp wrapper, Build the C# wrapper from Liblinphone.
  * FlexiAPI, Enable the FlexiAPI support in Liblinphone.
  * Swift wrapper, Build the Swift wrapper sources from Liblinphone.
  * Jazzy doc, Build the Swift doc from Liblinphone.
