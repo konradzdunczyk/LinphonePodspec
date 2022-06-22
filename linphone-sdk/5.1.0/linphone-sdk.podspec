@@ -664,7 +664,7 @@ LICENSE
     }
   s.author       = { 'Belledonne Communications SARL' => 'linphone-iphone@belledonne-communications.com' }
   s.platform     = :ios, "9.0"
-  s.source       = { :http => "https://download.linphone.org/snapshots/ios/linphone-sdk-ios-5.1.0-beta.86+0a4f40d.zip" }
+  s.source       = { :http => "https://download.linphone.org/releases/ios/linphone-sdk-ios-5.1.0.zip" }
   s.vendored_frameworks = "linphone-sdk/apple-darwin/Frameworks/**"
   s.pod_target_xcconfig = { 'VALID_ARCHS' => "arm64 armv7 x86_64" }
   s.module_name   = 'linphonesw' # name of the swift package
